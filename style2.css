@@ -128,10 +128,12 @@
     width: 100%;
     min-height: 250px;
     padding: 0px 10% ;
+
 }
 
 .form-group {
-    margin-left: 15px; /* hoặc sử dụng margin-right nếu bạn muốn tạo khoảng cách giữa các phần tử */
+    margin-right: 15px; /* hoặc sử dụng margin-right nếu bạn muốn tạo khoảng cách giữa các phần tử */
+    padding: 10px;
 }
 
 label {
@@ -139,7 +141,7 @@ label {
 }
 .box_input h3{
     top: 100%;
-
+    align-content: center;
 }
 .title_form{
     width: 100%;
@@ -149,3 +151,21 @@ label {
     font-size: larger;
 }
 
+form {
+    max-width: 600px;
+    margin: 0 auto; 
+    text-align: left; 
+    
+}
+
+input, select {
+    margin-bottom: 10px;
+    width: calc(50% - 5px); 
+    box-sizing: border-box; 
+}
+
+textarea {
+    margin-bottom: 10px; 
+    width: calc(100% - 10px); 
+    box-sizing: border-box; 
+}
